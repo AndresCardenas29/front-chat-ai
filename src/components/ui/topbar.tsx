@@ -29,7 +29,7 @@ function Topbar(props: TopbarProps) {
 				<h1 className="flex items-center gap-2 font-bold text-xl dark:text-gray-200">
 					<MessageSquare className="h-6 w-6" /> <span>NekAI</span>
 				</h1>
-				<div className="links flex gap-7 hidden md:flex">
+				<div className="links gap-7 hidden md:flex">
 					<Link href="/prices" className="dark:text-gray-50">
 						Precios
 					</Link>
